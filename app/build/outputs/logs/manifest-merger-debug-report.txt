@@ -1,0 +1,281 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:2:1-50:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\hallym\.gradle\caches\transforms-3\3af50445215a9c179ddb8ca981062ece\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\hallym\.gradle\caches\transforms-3\518096a23dc3398280802233935dba57\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\hallym\.gradle\caches\transforms-3\d24b6edcb2c3be94ec0035f25e90831a\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\e04a7ad568e10b42098a084dd9263030\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\hallym\.gradle\caches\transforms-3\af5ece23650d809ebeb69046ae66fe89\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\c286adce4caf23530842c29238d655ff\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\c699e8bbf55966b9fde1396697293e5b\transformed\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.camera:camera-core:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\5222ba439157201ba1e6e1e82ef86c73\transformed\jetified-camera-core-1.0.0-alpha05\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\ddcb86cd28d577e7a95218922482c2d1\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\8bfe724704d67fae91838de98d8da27e\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\d2b21b0af576b2e8183103c35706e2ca\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\8d7109fd203d37d9923d75770519a25a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\43608cc6df05ed2ccc81a21c94f45e0a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\66979400072462b2667cb40d9ba22037\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\6a17f7836f19e6655e90fd08b90ba65c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\a10214184c90e46969e6bee0a9af93ee\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\49386de081fc83976bca4eb4250c3384\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\fbfb552bf69c0b76d33358049fa53c88\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\8dab651efdc97d93ba1ba90ab66b8d8a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\7fccf0074c980497e479c08736035921\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\abb949cd7ca3fac666b4608c7419b055\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\836e5dad7ca6eb634647741dcce5d31d\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\hallym\.gradle\caches\transforms-3\1854228f765e0b1acd893ec1554dc1de\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\hallym\.gradle\caches\transforms-3\2004024c6ec97043b4c5adc5e7f7c98e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\a54595f151597f66869fc1e9f334dced\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.pytorch:pytorch_android_torchvision_lite:1.12.2] C:\Users\hallym\.gradle\caches\transforms-3\5fcbe298ccab5fff04189ff16f8b2cdc\transformed\jetified-pytorch_android_torchvision_lite-1.12.2\AndroidManifest.xml:2:1-10:12
+MERGED from [org.pytorch:pytorch_android_lite:1.12.2] C:\Users\hallym\.gradle\caches\transforms-3\e9eb246bf5c511a0c272c00a92440249\transformed\jetified-pytorch_android_lite-1.12.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\hallym\.gradle\caches\transforms-3\f208ed00691df6b572f24019a4b3a238\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\fa38dc99c8d77a2f4ff39d0ef5998d48\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\d860d705cb15264e56d4ca5e17c07378\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\hallym\.gradle\caches\transforms-3\ae67e4217ef435de140c0d972df451e4\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hallym\.gradle\caches\transforms-3\33b8ab290a0079db87e676786cb5103c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\hallym\.gradle\caches\transforms-3\aa04212e6069fb635a2b1326a325357f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\hallym\.gradle\caches\transforms-3\9c64165bc4ebe5b589645bc44ca38665\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\b1ec2b59269e88f025bf07a86325efa8\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\hallym\.gradle\caches\transforms-3\79010793062335560b006234a9d86b67\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\hallym\.gradle\caches\transforms-3\544a39c4e216b37575d9b92ff4fbabec\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\e72b48042ded491922def761c4bd54c0\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\1d1361b2a86f48889270eedb44df81e1\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\f2b3324bc92ebe5e5daa76add0901316\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\cc7b6dc6a2d89259ed232457db50f905\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\11183de594cc97ef8d58cf7f726850a9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:4:5-47
+		INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:2:1-50:12
+		INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:2:1-50:12
+		INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:9:22-64
+application
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:11:5-48:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\hallym\.gradle\caches\transforms-3\3af50445215a9c179ddb8ca981062ece\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\hallym\.gradle\caches\transforms-3\3af50445215a9c179ddb8ca981062ece\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\hallym\.gradle\caches\transforms-3\518096a23dc3398280802233935dba57\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\hallym\.gradle\caches\transforms-3\518096a23dc3398280802233935dba57\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\hallym\.gradle\caches\transforms-3\d24b6edcb2c3be94ec0035f25e90831a\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\hallym\.gradle\caches\transforms-3\d24b6edcb2c3be94ec0035f25e90831a\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\c699e8bbf55966b9fde1396697293e5b\transformed\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\c699e8bbf55966b9fde1396697293e5b\transformed\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\hallym\.gradle\caches\transforms-3\1854228f765e0b1acd893ec1554dc1de\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\hallym\.gradle\caches\transforms-3\1854228f765e0b1acd893ec1554dc1de\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\hallym\.gradle\caches\transforms-3\2004024c6ec97043b4c5adc5e7f7c98e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\hallym\.gradle\caches\transforms-3\2004024c6ec97043b4c5adc5e7f7c98e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\hallym\.gradle\caches\transforms-3\f208ed00691df6b572f24019a4b3a238\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\hallym\.gradle\caches\transforms-3\f208ed00691df6b572f24019a4b3a238\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hallym\.gradle\caches\transforms-3\33b8ab290a0079db87e676786cb5103c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hallym\.gradle\caches\transforms-3\33b8ab290a0079db87e676786cb5103c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\hallym\.gradle\caches\transforms-3\1854228f765e0b1acd893ec1554dc1de\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:13:9-59
+	android:allowBackup
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:17:9-40
+	android:networkSecurityConfig
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:15:9-69
+	android:usesCleartextTraffic
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:18:9-44
+activity#org.pytorch.demo.objectdetection.MainActivity
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:20:9-23:20
+	android:screenOrientation
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:22:13-49
+	android:configChanges
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:21:13-48
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:20:19-47
+activity#org.pytorch.demo.objectdetection.SplashScreen
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:26:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:29:27-74
+activity#org.pytorch.demo.objectdetection.MyPageActivity
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:33:9-35:38
+	android:label
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:34:13-43
+activity#org.pytorch.demo.objectdetection.UploadActivity
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:37:9-39:37
+	android:label
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:39:13-35
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:38:13-43
+activity#org.pytorch.demo.objectdetection.EditImageActivity
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:41:9-43:20
+	android:label
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:42:13-46
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:41:19-52
+activity#org.pytorch.demo.objectdetection.mypage_upload
+ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:45:9-47:20
+	android:label
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:46:13-42
+	android:name
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml:45:19-48
+uses-sdk
+INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\hallym\.gradle\caches\transforms-3\3af50445215a9c179ddb8ca981062ece\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\hallym\.gradle\caches\transforms-3\3af50445215a9c179ddb8ca981062ece\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\hallym\.gradle\caches\transforms-3\518096a23dc3398280802233935dba57\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\hallym\.gradle\caches\transforms-3\518096a23dc3398280802233935dba57\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\hallym\.gradle\caches\transforms-3\d24b6edcb2c3be94ec0035f25e90831a\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\hallym\.gradle\caches\transforms-3\d24b6edcb2c3be94ec0035f25e90831a\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\e04a7ad568e10b42098a084dd9263030\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\e04a7ad568e10b42098a084dd9263030\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\hallym\.gradle\caches\transforms-3\af5ece23650d809ebeb69046ae66fe89\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\hallym\.gradle\caches\transforms-3\af5ece23650d809ebeb69046ae66fe89\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\c286adce4caf23530842c29238d655ff\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\c286adce4caf23530842c29238d655ff\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\c699e8bbf55966b9fde1396697293e5b\transformed\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\c699e8bbf55966b9fde1396697293e5b\transformed\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\5222ba439157201ba1e6e1e82ef86c73\transformed\jetified-camera-core-1.0.0-alpha05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\5222ba439157201ba1e6e1e82ef86c73\transformed\jetified-camera-core-1.0.0-alpha05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\ddcb86cd28d577e7a95218922482c2d1\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\ddcb86cd28d577e7a95218922482c2d1\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\8bfe724704d67fae91838de98d8da27e\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\8bfe724704d67fae91838de98d8da27e\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\d2b21b0af576b2e8183103c35706e2ca\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\d2b21b0af576b2e8183103c35706e2ca\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\8d7109fd203d37d9923d75770519a25a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\8d7109fd203d37d9923d75770519a25a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\43608cc6df05ed2ccc81a21c94f45e0a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\43608cc6df05ed2ccc81a21c94f45e0a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\66979400072462b2667cb40d9ba22037\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\66979400072462b2667cb40d9ba22037\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\6a17f7836f19e6655e90fd08b90ba65c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\6a17f7836f19e6655e90fd08b90ba65c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\a10214184c90e46969e6bee0a9af93ee\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\a10214184c90e46969e6bee0a9af93ee\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\49386de081fc83976bca4eb4250c3384\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\49386de081fc83976bca4eb4250c3384\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\fbfb552bf69c0b76d33358049fa53c88\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\fbfb552bf69c0b76d33358049fa53c88\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\8dab651efdc97d93ba1ba90ab66b8d8a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\8dab651efdc97d93ba1ba90ab66b8d8a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\7fccf0074c980497e479c08736035921\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\7fccf0074c980497e479c08736035921\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\abb949cd7ca3fac666b4608c7419b055\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\abb949cd7ca3fac666b4608c7419b055\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\836e5dad7ca6eb634647741dcce5d31d\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\836e5dad7ca6eb634647741dcce5d31d\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\hallym\.gradle\caches\transforms-3\1854228f765e0b1acd893ec1554dc1de\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\hallym\.gradle\caches\transforms-3\1854228f765e0b1acd893ec1554dc1de\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\hallym\.gradle\caches\transforms-3\2004024c6ec97043b4c5adc5e7f7c98e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\hallym\.gradle\caches\transforms-3\2004024c6ec97043b4c5adc5e7f7c98e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\a54595f151597f66869fc1e9f334dced\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\a54595f151597f66869fc1e9f334dced\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.pytorch:pytorch_android_torchvision_lite:1.12.2] C:\Users\hallym\.gradle\caches\transforms-3\5fcbe298ccab5fff04189ff16f8b2cdc\transformed\jetified-pytorch_android_torchvision_lite-1.12.2\AndroidManifest.xml:6:5-8:41
+MERGED from [org.pytorch:pytorch_android_torchvision_lite:1.12.2] C:\Users\hallym\.gradle\caches\transforms-3\5fcbe298ccab5fff04189ff16f8b2cdc\transformed\jetified-pytorch_android_torchvision_lite-1.12.2\AndroidManifest.xml:6:5-8:41
+MERGED from [org.pytorch:pytorch_android_lite:1.12.2] C:\Users\hallym\.gradle\caches\transforms-3\e9eb246bf5c511a0c272c00a92440249\transformed\jetified-pytorch_android_lite-1.12.2\AndroidManifest.xml:6:5-8:41
+MERGED from [org.pytorch:pytorch_android_lite:1.12.2] C:\Users\hallym\.gradle\caches\transforms-3\e9eb246bf5c511a0c272c00a92440249\transformed\jetified-pytorch_android_lite-1.12.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\hallym\.gradle\caches\transforms-3\f208ed00691df6b572f24019a4b3a238\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\hallym\.gradle\caches\transforms-3\f208ed00691df6b572f24019a4b3a238\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\fa38dc99c8d77a2f4ff39d0ef5998d48\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\hallym\.gradle\caches\transforms-3\fa38dc99c8d77a2f4ff39d0ef5998d48\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\d860d705cb15264e56d4ca5e17c07378\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\d860d705cb15264e56d4ca5e17c07378\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\hallym\.gradle\caches\transforms-3\ae67e4217ef435de140c0d972df451e4\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\hallym\.gradle\caches\transforms-3\ae67e4217ef435de140c0d972df451e4\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hallym\.gradle\caches\transforms-3\33b8ab290a0079db87e676786cb5103c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hallym\.gradle\caches\transforms-3\33b8ab290a0079db87e676786cb5103c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\hallym\.gradle\caches\transforms-3\aa04212e6069fb635a2b1326a325357f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\hallym\.gradle\caches\transforms-3\aa04212e6069fb635a2b1326a325357f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\hallym\.gradle\caches\transforms-3\9c64165bc4ebe5b589645bc44ca38665\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\hallym\.gradle\caches\transforms-3\9c64165bc4ebe5b589645bc44ca38665\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\b1ec2b59269e88f025bf07a86325efa8\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\b1ec2b59269e88f025bf07a86325efa8\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\hallym\.gradle\caches\transforms-3\79010793062335560b006234a9d86b67\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\hallym\.gradle\caches\transforms-3\79010793062335560b006234a9d86b67\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\hallym\.gradle\caches\transforms-3\544a39c4e216b37575d9b92ff4fbabec\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\hallym\.gradle\caches\transforms-3\544a39c4e216b37575d9b92ff4fbabec\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\e72b48042ded491922def761c4bd54c0\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\e72b48042ded491922def761c4bd54c0\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\1d1361b2a86f48889270eedb44df81e1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\1d1361b2a86f48889270eedb44df81e1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\f2b3324bc92ebe5e5daa76add0901316\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\f2b3324bc92ebe5e5daa76add0901316\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\cc7b6dc6a2d89259ed232457db50f905\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hallym\.gradle\caches\transforms-3\cc7b6dc6a2d89259ed232457db50f905\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\11183de594cc97ef8d58cf7f726850a9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\hallym\.gradle\caches\transforms-3\11183de594cc97ef8d58cf7f726850a9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hallym\AndroidStudioProjects\Forshop_18\app\src\main\AndroidManifest.xml
+provider#androidx.camera.camera2.impl.Camera2Initializer
+ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\c699e8bbf55966b9fde1396697293e5b\transformed\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:25:9-30:43
+	android:authorities
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\c699e8bbf55966b9fde1396697293e5b\transformed\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:27:13-64
+	android:multiprocess
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\c699e8bbf55966b9fde1396697293e5b\transformed\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:30:13-40
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\c699e8bbf55966b9fde1396697293e5b\transformed\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:28:13-37
+	android:initOrder
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\c699e8bbf55966b9fde1396697293e5b\transformed\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\hallym\.gradle\caches\transforms-3\c699e8bbf55966b9fde1396697293e5b\transformed\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:26:13-75
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\hallym\.gradle\caches\transforms-3\2004024c6ec97043b4c5adc5e7f7c98e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\hallym\.gradle\caches\transforms-3\2004024c6ec97043b4c5adc5e7f7c98e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\hallym\.gradle\caches\transforms-3\2004024c6ec97043b4c5adc5e7f7c98e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\hallym\.gradle\caches\transforms-3\2004024c6ec97043b4c5adc5e7f7c98e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64

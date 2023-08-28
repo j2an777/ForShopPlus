@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/popup_box">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이미지 저장하시겠습니까?"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:fontFamily="@font/pretendard_regular"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/transparent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/customPositiveButton"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textColor="#F386FD"
+                android:textSize="12sp"
+                android:background="@color/transparent"
+                android:text="Yes"/>
+
+            <Button
+                android:id="@+id/customNegativeButton"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textColor="#626262"
+                android:textSize="12sp"
+                android:background="@color/transparent"
+                android:text="No"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/aimode_menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp">
+
+            <ImageButton
+                android:id="@+id/aimode_settings"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/settings" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="설정"
+                android:textColor="#5D5D5D"
+                android:textSize="8sp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp">
+
+            <ImageButton
+                android:id="@+id/aimode_timer"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@null"
+                android:scaleType="centerInside"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="타이머"
+                android:textColor="#5D5D5D"
+                android:textSize="8sp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/aimode_mydata"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/menuitem4"
+                android:elevation="15dp"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="My"
+                android:textColor="#5D5D5D"
+                android:textSize="8sp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ViewStub
+        android:id="@+id/object_detection_texture_view_stub"
+        android:layout_width="0dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="15dp"
+        android:layout="@layout/texture_view"
+        app:layout_constraintTop_toBottomOf="@id/aimode_menu_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <org.pytorch.demo.objectdetection.FocusCircleView
+        android:id="@+id/focus_circle_view"
+        android:layout_width="0dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/aimode_menu_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/captured_image_view"
+        android:layout_width="0dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/aimode_menu_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone" />
+
+    <org.pytorch.demo.objectdetection.ResultView
+        android:id="@+id/resultView"
+        android:layout_width="0dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/aimode_menu_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <org.pytorch.demo.objectdetection.GridOverlayView
+        android:id="@+id/grid_overlay_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/grid_view"
+        app:layout_constraintBottom_toBottomOf="@id/resultView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aimode_menu_bar"/>
+
+
+    <TextView
+        android:id="@+id/switchModeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI"
+        android:textSize="14sp"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf ="@id/resultView"
+        app:layout_constraintBottom_toTopOf="@id/aimode_grid_switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        android:id="@+id/switchModeTextRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="일반"
+        android:textSize="14sp"
+        android:background="@android:color/transparent"
+        android:textColor="#4D000000"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf ="@id/resultView"
+        app:layout_constraintBottom_toTopOf="@id/aimode_grid_switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        android:layout_marginBottom="30dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/aimode_grid_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:showText="true"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:track="@drawable/guide_track"
+        android:thumb="@drawable/guide_thumb"
+        android:thumbTextPadding="24dp"
+        android:switchMinWidth="0dp"
+        android:textOff="Off"
+        android:textOn="On"
+        android:checked="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/button_take_picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_bias="0.5"/>
+
+    <include
+        android:id="@+id/maskItemsLayout"
+        layout="@layout/mask_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/grid_overlay_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_take_picture"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/take_transition"
+        android:elevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="40dp"/>
+
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="30dp"
+        android:textColor="#FF0000"
+        android:padding="10dp"
+        android:visibility="visible"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

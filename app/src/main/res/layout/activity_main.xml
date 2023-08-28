@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp">
+
+            <ImageButton
+                android:id="@+id/settings"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/settings" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="설정"
+                android:fontFamily="@font/pretendard_regular"
+                android:textColor="#5D5D5D"
+                android:textSize="8sp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp">
+
+            <ImageButton
+                android:id="@+id/your_timer_button_id"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@null"
+                android:scaleType="centerInside"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="타이머"
+                android:fontFamily="@font/pretendard_regular"
+                android:textColor="#5D5D5D"
+                android:textSize="8sp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp">
+
+            <ImageButton
+                android:id="@+id/gallery_btn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/menuitem2"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="보정"
+                android:fontFamily="@font/pretendard_regular"
+                android:textColor="#5D5D5D"
+                android:textSize="8sp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mydata_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/menuitem4"
+                android:elevation="15dp"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="My"
+                android:fontFamily="@font/pretendard_regular"
+                android:textColor="#5D5D5D"
+                android:textSize="8sp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ViewStub
+        android:id="@+id/object_detection_texture_view_stub"
+        android:layout_width="0dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="15dp"
+        android:layout="@layout/texture_view"
+        app:layout_constraintTop_toBottomOf="@id/menu_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <org.pytorch.demo.objectdetection.FocusCircleView
+        android:id="@+id/focus_circle_view"
+        android:layout_width="0dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/menu_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <org.pytorch.demo.objectdetection.ResultView
+        android:id="@+id/resultView"
+        android:layout_width="0dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/menu_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <org.pytorch.demo.objectdetection.GridOverlayView
+        android:id="@+id/grid_overlay_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/grid_view"
+        app:layout_constraintBottom_toBottomOf="@id/resultView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_bar"/>
+
+    <!-- 머리 사진을 보여줄 ImageView -->
+    <ImageView
+        android:id="@+id/headImageView"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/grid_switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/headRatioTextView"
+        android:src="@drawable/head"
+        android:scaleType="centerCrop" />
+
+
+    <!-- 머리 비율을 보여줄 TextView -->
+    <TextView
+        android:id="@+id/headRatioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/grid_switch"
+        app:layout_constraintStart_toEndOf="@+id/headImageView"
+        app:layout_constraintEnd_toStartOf="@+id/upImageView"
+        android:text="비율: " />
+
+    <!-- 몸통 사진을 보여줄 ImageView -->
+    <ImageView
+        android:id="@+id/upImageView"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/grid_switch"
+        app:layout_constraintStart_toEndOf="@+id/headRatioTextView"
+        app:layout_constraintEnd_toStartOf="@+id/upRatioTextView"
+        android:src="@drawable/up" />
+
+    <!-- 몸통 비율을 보여줄 TextView -->
+    <TextView
+        android:id="@+id/upRatioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/grid_switch"
+        app:layout_constraintStart_toEndOf="@+id/upImageView"
+        app:layout_constraintEnd_toStartOf="@+id/lowImageView"
+        android:text="비율: " />
+
+    <!-- 다리 사진을 보여줄 ImageView -->
+    <ImageView
+        android:id="@+id/lowImageView"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/grid_switch"
+        app:layout_constraintStart_toEndOf="@+id/upRatioTextView"
+        app:layout_constraintEnd_toStartOf="@+id/lowRatioTextView"
+        android:src="@drawable/low" />
+
+    <!-- 다리 비율을 보여줄 TextView -->
+    <TextView
+        android:id="@+id/lowRatioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/grid_switch"
+        app:layout_constraintStart_toEndOf="@+id/lowImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="비율: " />
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/grid_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:showText="true"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:track="@drawable/guide_track"
+        android:thumb="@drawable/guide_thumb"
+        android:thumbTextPadding="24dp"
+        android:switchMinWidth="0dp"
+        android:textOff="Off"
+        android:textOn="On"
+        android:checked="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/button_take_picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_bias="0.5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_take_picture"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/take_transition"
+        android:elevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="40dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/storage_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@id/button_take_picture"
+        app:layout_constraintEnd_toStartOf="@id/button_take_picture"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reverse_btn"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/reload"
+        app:layout_constraintBottom_toBottomOf="@id/button_take_picture"
+        app:layout_constraintStart_toEndOf="@id/button_take_picture"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="13dp"/>
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="30dp"
+        android:fontFamily="@font/pretendard_regular"
+        android:textColor="#4e4e4e"
+        android:padding="10dp"
+        android:visibility="visible"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
